@@ -101,7 +101,7 @@ The module supports AWS Simple Email Service (SES) for scalable email delivery.
 
 To enable SES, configure it in `.cmmv.config.js`:
 
-```json
+```javasript
 email: {
     SES: {
         accessKeyId: "your-access-key",
