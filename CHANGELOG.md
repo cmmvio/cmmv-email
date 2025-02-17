@@ -1,3 +1,12 @@
+## [0.0.4](https://github.com/cmmvio/cmmv-email/compare/v0.0.3...v0.0.4) (2025-02-17)
+
+
+### Bug Fixes
+
+* cli commands, eslint ([eac48b5](https://github.com/cmmvio/cmmv-email/commit/eac48b54abee62ecbaba8fee1ab0c923fded8110))
+
+
+
 ## [0.0.3](https://github.com/cmmvio/cmmv-email/compare/v0.0.2...v0.0.3) (2025-01-24)
 
 
