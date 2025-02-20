@@ -2,6 +2,7 @@ const js = require("@eslint/js");
 const tseslint = require("@typescript-eslint/eslint-plugin");
 const tsparser = require("@typescript-eslint/parser");
 const prettier = require("eslint-plugin-prettier");
+const globals = require("globals");
 
 module.exports = [
     js.configs.recommended,
@@ -9,10 +10,14 @@ module.exports = [
         languageOptions: {
             parser: tsparser,
             parserOptions: {
+                ecmaVersion: 2015,
                 project: "./tsconfig.json",
                 tsconfigRootDir: __dirname,
                 sourceType: "module"
-            }
+            },
+            globals: {
+                ...globals.node,
+            },
         },
         files: ["src/**/*.ts", "apps/**/*.ts", "libs/**/*.ts", "test/**/*.ts"],
         ignores: ["node_modules", "dist", "build", ".generated", "eslint.config.js"],

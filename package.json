@@ -51,6 +51,7 @@
         "@commitlint/cli": "^19.7.1",
         "@commitlint/config-angular": "^19.7.1",
         "@commitlint/config-conventional": "^19.7.1",
+        "@tsconfig/node22": "^22.0.0",
         "@types/node": "^22.13.4",
         "@types/nodemailer": "^6.4.17",
         "conventional-changelog": "^6.0.0",
