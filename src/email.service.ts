@@ -11,9 +11,9 @@ export class EmailService extends Singleton {
 
   public static async loadConfig(application: Application): Promise<void> {
     const instance = EmailService.getInstance();
-    const options = Config.get<any>('email');
+    const options = Config.get<any>('email', {});
 
-    if (options.SES) options.SES = new AWS.SES(options.SES);
+    if (options?.SES) options.SES = new AWS.SES(options.SES);
 
     instance.transporter = nodemailer.createTransport(options);
   }
