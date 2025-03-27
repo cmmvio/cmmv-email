@@ -1,3 +1,12 @@
+## [0.1.1](https://github.com/cmmvio/cmmv-email/compare/v0.1.0...v0.1.1) (2025-03-27)
+
+
+### Bug Fixes
+
+* node linker ([c84d66d](https://github.com/cmmvio/cmmv-email/commit/c84d66dfd9605094a0b6456ebbcddf4f64177195))
+
+
+
 # [0.1.0](https://github.com/cmmvio/cmmv-email/compare/v0.0.4...v0.1.0) (2025-02-20)
 
 
