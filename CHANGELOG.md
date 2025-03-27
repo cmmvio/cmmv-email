@@ -1,3 +1,9 @@
+## <small>0.1.3 (2025-03-27)</small>
+
+* release: v0.1.2 ([d826628](https://github.com/cmmvio/cmmv-email/commit/d826628))
+
+
+
 ## <small>0.1.2 (2025-03-27)</small>
 
 * update: dependencies ([fb13d47](https://github.com/cmmvio/cmmv-email/commit/fb13d47))
