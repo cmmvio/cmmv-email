@@ -28,7 +28,7 @@
         "useDefineForClassFields": true,
         "allowJs": false,
         "importHelpers": true,
-        "lib": ["esnext", "dom"],
+        "lib": ["esnext"],
         "types": ["node"],
     },
     "include": ["src/**/*.ts"],
