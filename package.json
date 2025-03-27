@@ -46,7 +46,7 @@
         "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
     },
     "devDependencies": {
-        "@cmmv/cli": "latest",
+        "@cmmv/cli": "^0.8.5",
         "@commitlint/cli": "^19.8.0",
         "@commitlint/config-angular": "^19.8.0",
         "@commitlint/config-conventional": "^19.8.0",
@@ -66,5 +66,12 @@
         "@cmmv/core": "latest",
         "aws-sdk": "^2.1692.0",
         "nodemailer": "^6.10.0"
+    },
+    "pnpm": {
+        "onlyBuiltDependencies": [
+            "@swc/core",
+            "aws-sdk",
+            "esbuild"
+        ]
     }
 }
