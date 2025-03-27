@@ -1,3 +1,9 @@
+## <small>0.1.2 (2025-03-27)</small>
+
+* update: dependencies ([fb13d47](https://github.com/cmmvio/cmmv-email/commit/fb13d47))
+
+
+
 ## [0.1.1](https://github.com/cmmvio/cmmv-email/compare/v0.1.0...v0.1.1) (2025-03-27)
 
 

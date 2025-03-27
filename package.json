@@ -1,6 +1,6 @@
 {
     "name": "@cmmv/email",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Module for sending emails with Nodemail for CMMV",
     "keywords": [
         "cmmv",
